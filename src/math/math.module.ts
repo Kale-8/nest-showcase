@@ -18,5 +18,4 @@ import {MathService} from './math.service';
     ],
     exports: [MathService, 'PI', 'RANDOM_NUMBER'],
 })
-export class MathModule {
-}
+export class MathModule {}
