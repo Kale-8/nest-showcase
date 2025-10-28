@@ -1,6 +1,5 @@
 import {Module} from '@nestjs/common';
 import {MathService} from './math.service';
-import {SharedModule} from '../shared/shared.module';
 
 @Module({
     providers: [
