@@ -1,0 +1,34 @@
+{
+  "name": "nest-showcase",
+  "version": "1.0.0",
+  "description": "Proyecto mínimo de NestJS para demostrar:\r 1. **Exportación de servicios** entre módulos\r 2. **Tipos de providers**: `useClass`, `useFactory`, `useValue`",
+  "main": "index.js",
+  "scripts": {
+    "start": "nest start",
+    "start:dev": "nest start --watch",
+    "start:debug": "nest start --debug --watch",
+    "start:prod": "node dist/main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kale-8/nest-showcase.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Kale-8/nest-showcase/issues"
+  },
+  "homepage": "https://github.com/Kale-8/nest-showcase#readme",
+  "dependencies": {
+    "@nestjs/common": "^11.1.8",
+    "@nestjs/core": "^11.1.8",
+    "@nestjs/platform-express": "^11.1.8",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.1"
+  }
+}
